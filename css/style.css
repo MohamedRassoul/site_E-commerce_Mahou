@@ -1,0 +1,675 @@
+body{
+    margin: 0px;
+}
+.tableau-bord{
+    margin-top: 0px;
+    width: 100%;
+    height: 40px;
+    background: blue;
+}
+
+.entexte1{
+    width: 300px;
+    height: 40px;
+    float: left;
+}
+
+#icon{
+    margin-top: 2px;
+    margin-left: 8px;
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+
+#num{
+    margin: 10px;
+    margin-left: 25px;
+    width: 150px;
+    height: 40px;
+    float: left;
+    color: aliceblue;
+}
+
+.entexte2{
+    width: 175px;
+    height: 40px;
+    float: right;
+}
+
+#entext2{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 175px;
+    height: 40px;
+    color: aliceblue;
+    float: right;  
+}
+
+#entext2 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header{
+    width: 950px;
+    min-height: 100px;
+    margin: 0px auto;
+}
+
+.panier{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+}
+
+#espacepanier{
+    background-color: blue;
+    width: 140px;
+    height: 40px;
+    float: right;
+    border-radius: 8px;
+}
+
+#paniermarche{
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin: 2px;
+}
+
+#prix{
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+.menu{
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    margin-top: 20px;
+}
+
+.dmenu{
+    width: 160px;
+    height: 40px;
+    float: left; 
+    color: aliceblue; 
+    margin-top: 8px; 
+    margin-left: 10px;
+}
+
+.dmenu a{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+   
+}
+
+.gmenu{
+    width: 160px;
+    height: 40px;
+    float: right; 
+    color: aliceblue; 
+    margin-top: 8px; 
+}
+
+.gmenu a{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+   
+}
+
+.cercle{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin: 0px auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 8px;
+    border-color: antiquewhite;
+    position: relative;
+    top: -70px;
+    z-index: 1;
+}
+
+#lunette{
+    margin-left: 12px;
+    margin-top: -7px;
+}
+
+#read{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -10px;
+    margin-right: 6px;
+    color: aliceblue;
+}
+
+
+.main{
+    width: 950px;
+    margin: 0px auto;
+}
+
+.slides{
+    width: 950px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+    margin: 0px auto;
+    top: 30px;
+}
+
+.lignentete{
+    width: 100%;
+    height: 6px;
+    background-color: blue;
+    position: relative;
+    top: 70px;
+}
+
+#tittretxt{
+    width: 175px;
+    height: 40px;
+    float: left;
+    background-color: blue;
+    position: relative;
+    top: -35px;
+}
+
+#question{
+    margin-top: 8px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+.texte{
+    margin-left: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    width: 950px;
+    font-size: 20px;
+}
+
+p{
+    padding: 10px;
+}
+
+.lignentete2{
+    width: 100%;
+    height: 6px;
+    background-color: blue;
+    position: relative;
+    top: 20px;
+}
+
+#tittretxt2{
+    width: 175px;
+    height: 40px;
+    margin: 0px auto;
+    background-color: blue;
+    position: relative;
+    top: -35px;
+}
+
+.lesimages{
+    width: 950px;
+    height: 275px;
+    position: relative;
+    margin: 0px auto;
+    top: 40px;
+}
+
+#image1{
+    width: 200px;
+    height: 275px;
+    position: relative;
+}
+
+#image2{
+    width: 200px;
+    height: 275px;
+    position: relative;
+    margin: 0px auto;
+    top: -275px;
+}
+
+#image3{
+    width: 200px;
+    height: 275px;
+    position: relative;
+    top: -550px;
+    right: -750px;
+}
+
+#img1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 100%;
+}
+
+#tit1{
+    width: 200px;
+    height: 55px;
+    background-color: blue;
+    margin-top: 10px;
+}
+
+.piedpage{
+    width: 950px;
+    height: 250px;
+    position: relative;
+    margin: 0px auto;
+    top: 70px;
+}
+
+#tex{
+    width: 950px;
+    height: 50px;
+    background-color: rgb(117, 167, 197);
+    font-size: 25px;
+    margin-top: 0px;
+    color: aliceblue;
+    text-align: center;
+}
+
+#slogan{
+    padding-top: 10px;
+}
+
+#texim{
+    width: 950px;
+    height: 160px;
+    background-color: rgb(65, 65, 183);
+}
+
+#foot{
+    width: 950px;
+    height: 40px;
+    background-color: rgb(9, 9, 223);
+}
+
+#footer{
+    padding-top: 10px;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+/*---------------------------- Page Produits --------------------------------------*/
+
+.lesproduits{
+    width: 950px;
+    margin: 0px auto;
+
+}
+
+.titreproduits{
+    width: 950px;
+    font-size: 25px;
+    margin: 0px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bloc{
+    width: 220px;
+    height: 250px;
+    float: left;
+    border-radius: 10px;
+    background-color: blue;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.photo{
+    width: 206px;
+    height: 150px;
+    position: relative;
+    border-radius: 10px;
+    background-color: grey;
+    margin: 0px auto;
+    top: 7px;
+    overflow: hidden;
+}
+
+.descriptionlunette{
+    width: 210px;
+    height: 50px;
+    position: relative;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin: 0px auto;
+    top: 15px;
+}
+
+.descrirelunette{
+    margin-top: -5px;
+}
+
+.prilunette{
+    width: 75px;
+    height: 25px;
+    float: left;
+    position: relative;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin: 0px auto;
+    top: 15px; 
+    left: 7px;
+}
+
+.prilunette{
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.prixlunette{
+    width: 75px;
+    height: 25px;
+    float: left;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-top: 23px; 
+    margin-left: 7px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.commender{
+    width: 100px;
+    height: 25px;
+    float: right;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-top: 23px; 
+    margin-right: 7px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.modifier_dans_boutique{
+    width: 60px;
+    height: 25px;
+    float: right;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: red;
+    margin-top: 1px;
+    border: red; 
+    margin-top: 23px; 
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.supprimer_dans_boutique{
+    width: 60px;
+    height: 25px;
+    float: right;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: green;
+    margin-top: 1px; 
+    border: green;
+    margin-top: 23px; 
+    text-align: center;
+    font-size: 14px; 
+}
+
+.modifSupp{
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/*---------------------------- Page gestion du site --------------------------------------*/
+
+.tableau{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    position: fixed;
+    margin: 0px;
+    z-index: 1;
+}
+
+.blue{
+    width: 20%;
+    height: 525px;
+    background-color: rgb(51, 51, 142);
+    float: left;
+    position: fixed;
+    top: 40px;
+    left: 0px;
+}
+
+.espace_logo{
+    width: 100px;
+    height: 130px;
+    margin: 0px auto;
+}
+
+.logog{
+    position: relative;
+    top: 15px;;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin: 0px auto;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+.element{
+    width: 100%;
+    height: 40px;
+}
+
+.premierlettre{
+    width: 34px;
+    height: 34px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.element_tableau_bord{
+    width: 200px;
+    height: 32px;
+    float: right;
+    margin-top: 4px;
+}
+
+.url_element_tableau_bord{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.ligne_separaion{
+    width: 100%;
+    height: 1px;
+    background-color: aliceblue;
+}
+
+.blanc{
+    width: 80%;
+    height: 525px;
+    background-color: hsl(0, 15%, 95%);
+    float: right;
+    margin-top: 40px;
+}
+
+.compteur{
+    width: 200px;
+    height: 175px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.partie_chiffre{
+    width: 100%;
+    height: 110px;
+    background-color: gray;
+    color: blue;
+    text-align: center;
+    line-height: 110px;
+    font-size: 40px;
+}
+
+.trait{
+    width: 100%;
+    height: 5px;
+    background-color: blueviolet;
+}
+
+.partie_lettre{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(97, 97, 206);
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+}
+
+/*---------------------------- Formulairs ajout de produits --------------------------------------*/
+
+.form_ajout{
+    width: 350px;
+    height: 360px;
+    background-color: blue;
+    margin: 0px auto;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+.tittr_ajout{
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: aliceblue;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formulaire_ajout_produit{
+    width: 350px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+section{
+    background-color: rgb(97, 97, 206);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    height: 350px;
+    margin: 0px auto;
+    margin-top: 100px;
+    
+}
+
+.section3{
+    width: 350px;
+    height: 315px;
+}
+
+.section{
+    /* la section pour la page connexion*/
+
+    background-color: rgb(97, 97, 206);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 6px;
+    height: 300px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+.connexionbackround{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+section h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+form input{
+    margin: 5px 0;
+    padding: 5px 5px;
+    outline: 0;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
+form input[type='submit']{
+    background-color: green;
+    border: 0;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section2{
+    width: 400px;
+    height: 475px;
+    margin-top: 30px;
+}
+
+/*---------------------------- Page Panier pour le client --------------------------------------*/
+
+.panierclient{
+    width: 400px;
+    height: 300px;
+    background-color: blue;
+    border-radius: 5px;
+    position: relative;
+    left: 5px;
+    top: 15px;
+
+}
