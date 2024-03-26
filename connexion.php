@@ -29,7 +29,7 @@
             <label>Adresse mail</label>
             <input type="email" name="email">
             <label >Mot de passe</label>
-            <input type="password" name="pwd">
+            <input type="password" name="mdp">
             <input type="submit" value="Connexion" name="connexion">
             <br>
             <center><a href="inscription.php" name="inscription" style="text-decoration: none; color:aliceblue;">Inscriez-vous</a></center>
