@@ -99,6 +99,12 @@ function Users() {
 	return $req->fetchAll();
 }
 
+function AjouterClient($nom, $prenom, $adresse, $num_tel, $email, $mdp) {
+	$cnx = Connexion();
+	$req = $cnx->prepare("INSERT INTO `users_clients` (`nom`, `prenom`, `adresse`, `num_tel`, `email`, `mdp`, `role`) VALUES(?,?,?,?,?,?, 'client')");
+	$req->execute(array($nom, $prenom, $adresse, $num_tel, $email, $mdp));
+}
+
 function NombreCommande() {
 	$cnx = Connexion();
 	$req = $cnx->prepare("SELECT count(*) as Ncom FROM commandes");
@@ -112,10 +118,5 @@ function AjouterCommandes($id_produit) {
 	$req->execute(array($id_produit));
 }
 
-function AjouterClient($nom, $prenom, $adresse, $num_tel, $email, $mdp) {
-	$cnx = Connexion();
-	$req = $cnx->prepare("INSERT INTO `users_clients` (`nom`, `prenom`, `adresse`, `num_tel`, `email`, `mdp`, `role`) VALUES(?,?,?,?,?,?, 'client')");
-	$req->execute(array($nom, $prenom, $adresse, $num_tel, $email, $mdp));
-}
 
 ?>
